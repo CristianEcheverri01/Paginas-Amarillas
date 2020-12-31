@@ -1,0 +1,75 @@
+.form-container .form {
+	width: 70%;
+	margin: 50px auto 50px auto;
+	text-align: center;
+}
+
+.form-container .form .relative {
+	position: relative;
+	width: 100%;
+}
+
+.form-container .form .relative .icon {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	color: #222;
+}
+
+.form-container .form input {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 50px;
+	border: 1px #707070 solid;
+	background: linear-gradient(to right, #8709d030, #d6d64040);
+	text-align: center;
+}
+
+.form-container .form input:focus {
+	background: #8f10f045;
+	outline: none;
+	outline-width: 0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.form-container .text {
+	margin: 50px;
+	text-align: center;
+}
+
+.form-container .p {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.form-container .btn-sends {
+	position: relative;
+	border-radius: 20px;
+	border: 1px solid #222;
+	width: 200px;
+	height: 45px;
+	font-size: 20px;
+	color: rgb(255, 251, 251);
+	background: linear-gradient(to right, #4be8e3, #6f2286);
+	border: none;
+	margin: 50px auto 0 auto;
+	z-index: 1;
+}
+
+.form-container .btn-sends::after {
+	position: absolute;
+	top: 4px;
+	left: 0px;
+	content: ' ';
+	background: linear-gradient(to right, #4be8e3, #6f2286);
+	border-radius: 15px;
+	filter: blur(5px);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}

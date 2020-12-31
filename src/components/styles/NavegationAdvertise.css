@@ -1,0 +1,42 @@
+* {
+	font-family: 'Open Sans';
+}
+
+.boton {
+	text-decoration: none;
+	color: rgb(32, 31, 31);
+	width: 100%;
+}
+
+.anunciate {
+	height: 80px;
+	width: 15%;
+	background: linear-gradient(to left, #c610da73, #e2c92580);
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.post {
+	width: auto;
+	color: #0f0d0d;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+.b-1 {
+	border: #707070 solid 1px;
+	border-radius: 10px;
+}
+
+.t {
+	text-align: center;
+	color: #030303cc;
+	font-weight: bold;
+}
+
+#icono_anunciate {
+	width: 30px;
+}

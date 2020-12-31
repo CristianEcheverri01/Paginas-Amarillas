@@ -1,0 +1,15 @@
+.form-container {
+	width: 60%;
+}
+
+.redes-container {
+	margin: auto;
+	width: 25%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.redes-container p {
+	text-align: center;
+	font-size: 25px;
+}

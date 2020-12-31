@@ -1,0 +1,12 @@
+.degrade {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(to bottom, #efde0b60, #e1821590);
+	z-index: 0;
+}
+
+.grid {
+	margin: auto;
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}

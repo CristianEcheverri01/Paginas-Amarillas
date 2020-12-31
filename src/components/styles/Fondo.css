@@ -1,0 +1,13 @@
+.fondo {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(320deg, #eaab6dcc, #f1dd54);
+	overflow: hidden;
+}
+
+.fondo .img-fondo {
+	position: absolute;
+	bottom: 0;
+	right: 2%;
+}

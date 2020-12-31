@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.btns {
+	display: flex;
+	font-family: 'Segoe UI';
+	font-size: 30px;
+	flex-direction: row-reverse;
+	margin-right: 35px;
+}
+
+.btn-register {
+	background: #9b1dd237;
+	border: #707070;
+	margin-right: 30px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btn-login {
+	font-weight: bold;
+	background: #11111100;
+	border: 1px solid #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.p-1 {
+	padding: 10px 25px;
+}
+
+.m-t-1 {
+	margin-top: 10px;
+}
+
+.redondo {
+	border-radius: 50px;
+}

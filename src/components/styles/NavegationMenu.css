@@ -1,0 +1,47 @@
+.menu-container {
+	width: 100%;
+	margin-top: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.list {
+	width: 80%;
+	background: #00000080;
+	border-radius: 20px;
+	height: 50px;
+}
+
+.list ol {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 100%;
+	list-style: none;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	color: #ddd;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.uno {
+	grid-row: 1;
+	grid-column: 1;
+}
+
+.dos {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.tres {
+	grid-column: 3;
+	grid-row: 1;
+}
+
+.active {
+	color: #e1d214;
+}
