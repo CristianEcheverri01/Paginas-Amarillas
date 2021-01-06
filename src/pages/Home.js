@@ -27,12 +27,14 @@ const Home = props => {
 	const [data, setData] = useState(estado)
 
 	const datas = async () => {
+		//read almacenes table
 		const values = []
 		const queryShapshot = await db.collection('almacenes').get()
 
 		queryShapshot.forEach(doc => {
 			values.push(doc.data())
 		})
+
 		setData(values)
 		setLoading(false)
 	}

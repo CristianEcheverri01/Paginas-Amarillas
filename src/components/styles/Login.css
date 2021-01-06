@@ -52,7 +52,14 @@
 	border: none;
 	font-size: 20px;
 	cursor: pointer;
+	background: none;
+	font-weight: bold;
 }
+
+.login-container .card .card-header .close:focus {
+	border: none;
+}
+
 .login-container .card .card-body .form {
 	display: -ms-flexbox;
 	display: flex;
