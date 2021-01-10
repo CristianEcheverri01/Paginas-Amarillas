@@ -11,7 +11,7 @@ const Register = () => (
 	<div className='fondo scroll'>
 		<div className='scroll'>
 			<div className='img-fondo'>
-				<img src={img} width='400px' />
+				<img src={img} width='400px' alt='img' />
 			</div>
 			<div className='form-container'>
 				<RegisterForm />

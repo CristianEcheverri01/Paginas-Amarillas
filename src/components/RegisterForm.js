@@ -34,7 +34,7 @@ const RegisterForm = () => {
 		e.preventDefault()
 		//create new user in firebase
 
-		if (document.forms[0].pass.value == document.forms[0].passRep.value) {
+		if (document.forms[0].pass.value === document.forms[0].passRep.value) {
 			if (check) {
 				await db.collection('user').doc().set(values)
 				document.forms[0].name.value = estado.name
@@ -104,7 +104,7 @@ const RegisterForm = () => {
 						name='check'
 						onClick={handlerClick}
 					/>
-					<label for='_checkbox'>
+					<label htmlFor='_checkbox'>
 						<div id='tick_mark'></div>
 					</label>
 					<p className='p'>Aceptar términos y condiciónes</p>

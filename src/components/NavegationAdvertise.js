@@ -10,7 +10,7 @@ const Advertise = () => (
 	<div className='anunciate b-1'>
 		<Link to='advertise' className='boton'>
 			<p className='post m-a'>
-				<img id='icono_anunciate' src={img} />
+				<img id='icono_anunciate' src={img} alt='icono documentos' />
 			</p>
 			<p className='t'>Anúnciate</p>
 		</Link>

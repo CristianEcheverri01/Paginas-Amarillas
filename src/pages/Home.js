@@ -29,14 +29,18 @@ const Home = props => {
 	const datas = async () => {
 		//read almacenes table
 		const values = []
-		const queryShapshot = await db.collection('almacenes').get()
+		try {
+			const queryShapshot = await db.collection('almacenes').get()
 
-		queryShapshot.forEach(doc => {
-			values.push(doc.data())
-		})
+			queryShapshot.forEach(doc => {
+				values.push(doc.data())
+			})
 
-		setData(values)
-		setLoading(false)
+			setData(values)
+			setLoading(false)
+		} catch (error) {
+			setErr(error)
+		}
 	}
 
 	useEffect(() => {

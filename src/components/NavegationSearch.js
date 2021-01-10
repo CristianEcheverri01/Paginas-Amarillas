@@ -8,7 +8,7 @@ const Search = () => (
 		<h1 className='title'>Paginas Amarillas Niquia</h1>
 		<div className='search'>
 			<div id='search'>
-				<label for='input-search' className='icon'>
+				<label htmlFor='input-search' className='icon'>
 					<i className='fas fa-search' />
 				</label>
 				<input

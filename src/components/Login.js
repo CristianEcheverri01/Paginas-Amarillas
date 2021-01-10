@@ -36,7 +36,7 @@ const Login = ({ show, iniciarSesion }) => {
 				<div className='card-body'>
 					<form className='form' onSubmit={handlerSubmit}>
 						<div>
-							<label for='user'>Nombre de usuario</label>
+							<label htmlFor='user'>Nombre de usuario</label>
 							<input
 								type='text'
 								name='user'
@@ -46,7 +46,7 @@ const Login = ({ show, iniciarSesion }) => {
 							/>
 						</div>
 						<div className='pass-container'>
-							<label for='pass'>Contraseña</label>
+							<label htmlFor='pass'>Contraseña</label>
 							<input
 								type='password'
 								className='input-pass'

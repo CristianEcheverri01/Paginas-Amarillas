@@ -8,9 +8,9 @@ import '../components/styles/NotFound.css'
 const NotFound = () => (
 	<div>
 		<div className='contenedor'>
-			<img src={logoMini} className='logo1' />
-			<img src={img} className='img1' />
-			<img src={logoMini} className='logo2' />
+			<img src={logoMini} className='logo1' alt='logo' />
+			<img src={img} className='img1' alt='img' />
+			<img src={logoMini} className='logo2' alt='logo' />
 		</div>
 		<h1 className='text'>Pagina no encontrada verifica la dirección url</h1>
 		<h3 className='text'>¿a donde puedo ir?</h3>
